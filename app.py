@@ -22,7 +22,7 @@ from flask_cors import CORS
 import os.path
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from py import forecast_trips
+import forecast_trips
 
 
 # Assigning the Flask framework.
